@@ -1,5 +1,5 @@
 {
-  "name": "webpack-joke-generator-template",
+  "name": "lhaJokeGenProj",
   "version": "1.0.0",
   "description": "",
   "main": "src/scripts/main.js",
@@ -9,7 +9,7 @@
     "build": "webpack --mode production"
   },
   "keywords": [],
-  "author": "",
+  "author": "Luke Allen",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^6.2.0",

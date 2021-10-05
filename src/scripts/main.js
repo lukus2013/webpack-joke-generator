@@ -2,13 +2,12 @@
 
 import 'bootstrap'; // import bootstrap elements and js
 import '../styles/main.scss';
-import jokeData from './helpers/jokeData';
+import startApp from './startApp';
 
 const init = () => {
   document.querySelector('#app').innerHTML = `
-  `;
-
-  jokeData().then(console.warn);
+`;
+  startApp();
 };
 
 init();
